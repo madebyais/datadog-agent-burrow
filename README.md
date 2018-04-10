@@ -8,8 +8,11 @@ UPDATES
 ==================
 Support v2 and v3 Burrow API.
 
+```
 [Faris] Added a new file for v3 API under `checks.d` folder and renamed existing `burrow.py` into `burrow_v2.py`.
+
 [Faris] Added `makefile` to enable v2 and v3.
+```
 
 Use `make v2` to use the version 2, and `make v3` to use the version 3.
 
