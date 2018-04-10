@@ -4,6 +4,15 @@ Purpose
 This datadog agent plugin will connect to instances of Burrow (https://github.com/linkedin/Burrow) and automatically get the offsets for every consumer
 and topic and push them into Datadog.
 
+UPDATES
+==================
+Support v2 and v3 Burrow API.
+
+[Faris] Added a new file for v3 API under `checks.d` folder and renamed existing `burrow.py` into `burrow_v2.py`.
+[Faris] Added `makefile` to enable v2 and v3.
+
+Use `make v2` to use the version 2, and `make v3` to use the version 3.
+
 Metrics and Checks
 ==================
 This plugin will push the offsets for all topics (except the `offsets_topic`) and consumers
